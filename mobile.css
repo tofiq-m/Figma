@@ -1,0 +1,146 @@
+@media (max-width: 390px){
+    
+    /* general styles start */
+    .container{
+        padding: 0 32px;
+    }
+
+    .section-title{
+        font-size: 26px;
+    }
+
+    /* general styles end */
+
+    /* header styles start */
+
+    .header{
+        padding: 36px 0;
+        margin-bottom: 8px;
+    }
+
+    .logo__img{
+        width: 52px;
+    }
+
+    /* header styles end */
+
+    /* intro styles start */
+
+    .intro{
+        margin-bottom: 75px;
+    }
+
+    .intro-top__item{
+        font-size: 10px;
+        padding-left: 15px;
+        margin-right: 11px;
+    }
+
+    .intro-top__item::before{
+        width: 10px;
+        height: 10px;
+        top: 0;
+    }
+
+    .intro-container{
+        flex-direction: column;
+    }
+
+    .intro-container__inner{
+        margin-right: 0;
+    }
+
+    .intro-container__title{
+        font-size: 37px;
+        line-height: 101.38%;
+        margin-bottom: 13px;
+    }
+
+    .intro-container__img{
+        width: 142px;
+        margin-left: auto;
+        margin-top: 0;
+    }
+
+    .intro-container__text{
+        max-width: 212px;
+        font-size: 10px;
+    }
+
+    .intro-bottom{
+        max-width: 225px;
+        padding: 9px 12px 9px 9px;
+        margin-left: 38px;
+    }
+
+    .intro-bottom__text{
+        font-size: 11px;
+    }
+
+    .intro-bottom__author{
+        font-size: 10px;
+    }
+
+    /* intro styles start */
+
+    /* about styles start */
+    .about{
+        margin-bottom: 67px;
+    }
+
+    .about__title{
+        margin-bottom: 17px;
+    }
+
+    .about-top{
+        flex-direction: column;
+        margin-bottom: 45px;
+    }
+
+    .about-top__text{
+        font-size: 12px;
+        margin-bottom: 11px;
+    }
+
+    .about-img{
+        width: 170px;
+    }
+
+    .about-top__left{
+        max-width: 100%;
+    }
+
+    .about-bottom__img{
+       display: none;
+    }
+
+    .about-bottom__left{
+        margin-right: 0;
+    }
+
+    .about-items{
+        flex-wrap: wrap;
+    }
+
+    .about-item{
+        width:87px;
+        margin-right: 34px;
+        margin-bottom: 27px;
+    }
+
+    .about-item:last-child{
+        margin-bottom: 0;
+    }
+
+    .about-item__title{
+        font-size: 12px;
+    }
+
+    .about-item__text{
+        font-size: 10px;
+    }
+}
+    /* about styles end */
+
+
+
